@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import Counter from '../components/counter/counter';
 import indexScss from '../styles/index.module.scss';
-// console.log(Counter);
+
 export default function Index(props)
 {
     return (
