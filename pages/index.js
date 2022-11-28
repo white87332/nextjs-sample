@@ -1,11 +1,11 @@
 import { useState, useEffect, useMemo } from 'react';
 import Counter from '../components/counter/counter';
-import indexScss from '../styles/index.module.scss';
+import styles from '../styles/index.module.scss';
 
 export default function Index(props)
 {
     return (
-        <div>
+        <div className={styles.index}>
             <Counter />
         </div>
     );

@@ -1,7 +1,6 @@
 
 import { Provider } from 'react-redux';
 import { useStore } from '../redux/store';
-import 'normalize.css';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
